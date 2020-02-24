@@ -10,7 +10,7 @@ function createBubbleChart(error, countries, continentNames) {
         .domain(continents.values());
 
   var width = 1200,
-      height = 800;
+      height = 400;
   var svg,
       circles,
       circleSize = { min: 10, max: 80 };
